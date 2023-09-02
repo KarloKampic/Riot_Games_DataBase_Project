@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="53DD7281-881B-C714-0A60-8655B0FDC462" name="Zaposlenik">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:16:40 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Zaposlenik_ID" id="08AF888E-D1C2-9AD1-4CE7-ACEBF6ABFF05">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:54:42 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="AE87E36C-85F5-C2A1-2D8D-A02E7EE0F395">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:45:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="73C6DA53-9245-A9F6-16AF-8D6AECB6E3E3">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:00 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Pozicija" id="58ED8270-9374-62AC-9B12-6E7D8E570012">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:04 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum zaposlenja" id="41D951EF-08ED-8828-8F20-97BF9C36D84F">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:19 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Plaća" id="6D3908BB-6255-1689-8B28-BA7E3F8C8395">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:31 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Email" id="1F14ECBD-3398-EFC7-1230-A23C4FB1CAA6">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:45 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj telefona" id="ECEFAE5D-640C-3179-DF59-19EDB32CFD7D">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:46:55 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sjedšite_ID" id="2A85FB84-B9BA-67C5-2087-D9B675A14567">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 21:01:13 UTC</createdTime>
+<generatorID>326880C3-9B4F-906B-4138-252BC12EB901</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<referedAttribute>A90A367D-14CD-4C2B-7D00-7D76807D0070</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2C5A577-4F67-7E57-991B-462182E07C33" name="Zaposlenik PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:54:48 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>08AF888E-D1C2-9AD1-4CE7-ACEBF6ABFF05</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

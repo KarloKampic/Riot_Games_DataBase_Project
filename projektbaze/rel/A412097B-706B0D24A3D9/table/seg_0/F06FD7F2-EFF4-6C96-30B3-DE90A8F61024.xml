@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F06FD7F2-EFF4-6C96-30B3-DE90A8F61024" name="Zaposlenik_tim">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<ordsAlias>relation_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Zaposlenik_Zaposlenik_ID" id="096DCEDE-FB8F-FDDE-7041-ED05391BEDA9">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="28A4A18E-3B5D-9856-7CF7-E441D61B357D" referredColumn="B72CDCC4-21DF-A838-1D5E-AB6DEBD85734"/>
+</associations>
+</Column>
+<Column name="Tim_Tim_ID" id="CF94BDE4-D1DC-5708-1DC7-173921EFF5CC">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D59C932A-3FC4-087B-D177-ADC63930881C" referredColumn="65D0ABA6-FEDA-3C52-3543-67268168CFE9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14A374EA-703A-70CA-79DC-95329CC0B5DA" name="Zaposlenik_tim_PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096DCEDE-FB8F-FDDE-7041-ED05391BEDA9"/>
+<colUsage columnID="CF94BDE4-D1DC-5708-1DC7-173921EFF5CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B6CFF31-7DA4-D6E4-46DE-443BA01E5143" name="Relation_2_Zaposlenik_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>B5E375CB-74B2-13E8-419C-F151C7B3B7C0</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="096DCEDE-FB8F-FDDE-7041-ED05391BEDA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4D03A4A0-45CF-1455-EF8A-8296CF65EBA6" name="Relation_2_Tim_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>B5E375CB-74B2-13E8-419C-F151C7B3B7C0</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CF94BDE4-D1DC-5708-1DC7-173921EFF5CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

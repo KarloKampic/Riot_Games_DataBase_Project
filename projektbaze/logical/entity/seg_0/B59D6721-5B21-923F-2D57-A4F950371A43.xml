@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B59D6721-5B21-923F-2D57-A4F950371A43" name="Sjedište">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:57:41 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Sjedšite_ID" id="A90A367D-14CD-4C2B-7D00-7D76807D0070">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:58:00 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="6BF25F64-628D-0948-1DEE-32D8E23C1999">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:58:09 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Mjesto" id="77902197-C7FF-C586-28E7-2F402F42A7C0">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:58:16 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5FC2FD92-7751-1F95-E364-CC93F2FE4B81" name="Sjedište PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:58:08 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A90A367D-14CD-4C2B-7D00-7D76807D0070</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

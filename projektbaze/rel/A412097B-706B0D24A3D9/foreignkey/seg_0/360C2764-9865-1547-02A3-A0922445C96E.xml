@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="360C2764-9865-1547-02A3-A0922445C96E" containerWithKeyObject="902EB485-A481-BBB9-2C90-5D705B11F175" localFKIndex="F3A74D53-401A-9590-9016-36BA519BD154" name="Relation_3_Tim_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>F331C159-E420-1C21-DA41-8A3E10863CD9</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<referredTableLongName>Tim</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C1B1EA90-1D94-2A30-2366-BD6B035735A9</referredTableID>
+<keyObject>E3DF2A04-E774-9C95-AD2B-06806E805F5E</keyObject>
+<referredKeyID>E3DF2A04-E774-9C95-AD2B-06806E805F5E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Tim_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

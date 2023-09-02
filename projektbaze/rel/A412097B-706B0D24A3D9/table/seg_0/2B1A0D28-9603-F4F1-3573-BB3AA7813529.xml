@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2B1A0D28-9603-F4F1-3573-BB3AA7813529" name="Igra">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>A304B343-E622-FD18-B887-F640BE41A858</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Igra_ID" id="19550D0B-D917-49CB-0393-AE8C33BEA7C3">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>43F6A4B7-16C9-F9DB-0C9D-A1E18C996A45</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Naziv" id="85548536-59CC-B1FF-3665-31806D61F565">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>14E30C2E-941A-81D5-C801-E808AE9FE02F</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Žanr" id="02EAA714-618F-6416-9C9B-90700001B6CC">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>F5077C68-039F-868A-12A8-1981D2AECC59</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Godina_izdavanja" id="394888C1-3FE8-C9AC-3DE7-4821D60DE419">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>64D24C68-4A8D-A3E8-9771-CFE5D24C80A3</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Platforma" id="6C4FB0AE-3FAA-5689-FA2D-1D235707A6B8">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>551DC0C8-88E6-CE76-16A8-71C316BD4088</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cijena" id="A08EC8FF-B88D-33F8-D188-6B30E1BCA583">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>71410A24-3895-DE7F-7F95-266310455129</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAF5E34F-06CD-FB5D-374B-785CEB152CF9" name="Igra_PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>9A4D9F92-82F6-7D81-2A4F-E1CEE1613CB4</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19550D0B-D917-49CB-0393-AE8C33BEA7C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

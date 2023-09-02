@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A2FAC21B-0E5D-32B0-9B68-09DED5F2F777" containerWithKeyObject="B0F559CF-35C5-1C56-EEB7-135FB56EB60F" localFKIndex="B90FB315-4459-5CBC-D9CD-D5C7BAED7DDB" name="Projekt_Animacija_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-08-30 18:34:53 UTC</createdTime>
+<generatorID>514EBD33-2621-AE9B-B9EA-DFC02B00D722</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<referredTableLongName>Animacija</referredTableLongName>
+<arc>C1924A64-EA20-73C2-290E-6A08936594A9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>34E6E8D3-7C2E-E67A-3E3B-BB089F00EDF3</referredTableID>
+<keyObject>972A7819-AEBC-11FE-9591-BFEB32832517</keyObject>
+<referredKeyID>972A7819-AEBC-11FE-9591-BFEB32832517</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Animacija_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D16A924-7E65-23B6-4C98-73ED504613A0" name="Tim">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:16:46 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tim_ID" id="17DC1B8F-19DC-B3B5-EB18-3E690C83186F">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:54:25 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Naziv" id="4A6AB671-24B2-8724-AEEE-E1BB6124712E">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:47:52 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Vrsta" id="BE31DF0C-174E-9548-CB7A-E8B6317E5DE6">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:47:56 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum_osnivanja" id="04DFEC40-EAD9-22AF-F0AE-BABE0C15EDB9">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:48:02 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Broj_članova" id="45185427-8298-9AB4-BCBC-EA6B274531CD">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:48:12 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B3E375C-87E0-E210-3896-965E9563478E" name="Tim PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 19:54:33 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>17DC1B8F-19DC-B3B5-EB18-3E690C83186F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

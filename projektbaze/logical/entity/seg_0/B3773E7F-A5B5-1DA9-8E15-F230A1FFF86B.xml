@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3773E7F-A5B5-1DA9-8E15-F230A1FFF86B" name="Klijent">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:57:17 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Klijent_ID" id="21D3BD1A-55EB-959D-02FB-680066B71D7C">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:59:27 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ime" id="7B85AAC7-EA33-8370-5934-722181AF7C2C">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:59:31 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Prezime" id="5556A7C8-3D64-3279-B3EE-AF62BBCCA595">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:59:35 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="E-mail" id="4FA5DAF3-0A23-9E88-DE28-90A018A068C3">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:59:39 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Username" id="05B0588D-5810-9471-52A4-13EEA4C7A755">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 20:59:45 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Datum rođenja" id="F553A7BA-8999-6A91-CBA4-C46DEBCB88EA">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 21:10:24 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6060F19D-D24A-3A32-7127-596CC48CF87B" name="Klijent PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-13 21:00:53 UTC</createdTime>
+<ownerDesignName>projektbaze</ownerDesignName>
+<engineerTo>
+<item key="A412097B-7513-B4B0-ED10-706B0D24A3D9" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21D3BD1A-55EB-959D-02FB-680066B71D7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

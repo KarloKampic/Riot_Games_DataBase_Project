@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0F559CF-35C5-1C56-EEB7-135FB56EB60F" name="Projekt">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>FDD03BF4-6C36-D41B-26FC-E749808E3805</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Projekt_ID" id="91F98E40-00DA-CE98-88F5-BAAC6895B201">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>2B2E2EB3-93BC-2FDB-DCFD-9B92CFAABFE0</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ime" id="16DA69FE-4B3F-D279-654E-BBC477DA10DB">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>CE477FD0-CEF3-844E-7B30-5EC7D4255D29</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Opis" id="A99A8AC4-C39D-EE9C-1C24-C39F6C3F029C">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>D51AF5B5-2D30-1A28-8002-9934C760B644</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tip" id="FD15646D-A07B-C38C-0F3F-814B874AE08D">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>4D159F68-B4CE-F0CD-6F16-11BD3D2FDECE</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Status" id="586B8B26-9092-A918-EB3A-0817F1870A2F">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>DFEB45E5-8BE5-AF82-1E79-61F4FD8035F6</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Igra_Igra_ID" id="F4A18214-140E-076E-EEDF-086FAB7A3C4D">
+<createdBy>kamka</createdBy>
+<createdTime>2023-08-30 18:34:53 UTC</createdTime>
+<generatorID>53D87740-3135-C199-13CC-3442135B1DD8</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5D6B7493-D157-5749-0FE5-192D101436B3" referredColumn="19550D0B-D917-49CB-0393-AE8C33BEA7C3"/>
+</associations>
+</Column>
+<Column name="Animacija_Animacija_ID" id="F0823D85-49C0-9C19-D2C4-0B9EFA342A97">
+<createdBy>kamka</createdBy>
+<createdTime>2023-08-30 18:34:53 UTC</createdTime>
+<generatorID>DE6FA466-728B-6807-5787-7C7701F933ED</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2FAC21B-0E5D-32B0-9B68-09DED5F2F777" referredColumn="DBD9601E-A7D4-DB89-DCCE-1BB6974124CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5E3B5D20-4B70-86D1-DE14-026B580D539D" name="Projekt_PK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>9968E280-FBE4-FFAF-7E32-787E1016A4FC</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91F98E40-00DA-CE98-88F5-BAAC6895B201"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A3EC701-4642-E2A6-A628-1E86997B1ABB" name="Projekt_Igra_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-08-30 18:34:53 UTC</createdTime>
+<generatorID>3DD32DE7-77D0-3D71-F558-C7C93FCDE802</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4A18214-140E-076E-EEDF-086FAB7A3C4D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B90FB315-4459-5CBC-D9CD-D5C7BAED7DDB" name="Projekt_Animacija_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-08-30 18:34:53 UTC</createdTime>
+<generatorID>514EBD33-2621-AE9B-B9EA-DFC02B00D722</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0823D85-49C0-9C19-D2C4-0B9EFA342A97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

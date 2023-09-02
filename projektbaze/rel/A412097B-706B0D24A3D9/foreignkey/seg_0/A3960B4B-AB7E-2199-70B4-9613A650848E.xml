@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A3960B4B-AB7E-2199-70B4-9613A650848E" containerWithKeyObject="F9499555-0DBC-5B4A-A719-9463E8F472E5" localFKIndex="BB37581F-2167-1EEF-1EC5-203CD29D1CB9" name="Relation_6_Igra_FK">
+<createdBy>kamka</createdBy>
+<createdTime>2023-06-15 06:35:56 UTC</createdTime>
+<generatorID>9CDBF581-3F83-D377-556F-4792B244EB50</generatorID>
+<ownerDesignName>projektbaze</ownerDesignName>
+<referredTableLongName>Igra</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2B1A0D28-9603-F4F1-3573-BB3AA7813529</referredTableID>
+<keyObject>CAF5E34F-06CD-FB5D-374B-785CEB152CF9</keyObject>
+<referredKeyID>CAF5E34F-06CD-FB5D-374B-785CEB152CF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Igra_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
